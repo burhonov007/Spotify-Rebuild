@@ -13,7 +13,7 @@ struct UserArray: Codable {
 }
 
 
-struct User: Codable, Identifiable {
+struct User: Codable {
     let id: Int
     let firstName, lastName: String
     let age: Int
